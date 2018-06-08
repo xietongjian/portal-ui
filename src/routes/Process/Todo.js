@@ -448,7 +448,7 @@ export default class TableList extends PureComponent {
   formatterName(val, row, index){
     var ZC = "1",ZH="2",BH="3",ZY="4",BSP = "5",XT="6",PS="7";
     var UNKNOW = -1, ZDYBD=1, YWXTMH=2, YWXTYW=3,XTLC=4,ZDYBDYW=5;
-    var basePath = "http://homedev.chinyasha.com";
+    var basePath = "http://test.domain.com";
 
     var preMsg="";
     if(row.processType!="" && row.processType!="审批中"){

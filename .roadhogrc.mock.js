@@ -120,8 +120,8 @@ const proxy = {
   'GET /portal/api/process/ajaxPageData.jhtml':getAllAlreadySend,
   'GET /portal/api/process/getAllSystems.jhtml':getAllSystems,
   'GET /portal/api/process/ajaxListApprovingTask.jhtml':getAllSystems,
-  // 'GET /flow/ajaxListApprovingTask.jhtml':'http://hometest.chinayasha.com/portal',
-  'POST /portal/(.*)':'http://hometest.chinayasha.com/portal/',
+  // 'GET /flow/ajaxListApprovingTask.jhtml':'http://test.domain.com/portal',
+  'POST /portal/(.*)':'http://test.domain.com/portal/',
   'GET /api/products/getAll':getAllProducts,
   // 'GET /api/(.*)': 'https://your.server.com/api/'
 
@@ -156,6 +156,6 @@ const proxy = {
 };
 
 export default (noProxy ? {
-  // 'GET /portal/(.*)':'http://hometest.chinayasha.com/portal',
-   'GET /portal/api/(.*)':'http://homedev.chinayasha.com/portal/api/',
+  // 'GET /portal/(.*)':'http://test.domain.com/portal',
+   'GET /portal/api/(.*)':'http://test.domain.com/portal/api/',
 } : delay(proxy, 200));

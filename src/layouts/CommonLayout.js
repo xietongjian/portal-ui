@@ -232,25 +232,25 @@ class BasicLayout extends React.PureComponent {
                 {
                   key: 'Pro 首页',
                   title: 'Pro 首页',
-                  href: 'http://home.chinayasha.com',
+                  href: '#',
                   blankTarget: true,
                 },
                 {
                   key: 'git',
                   title: <Icon type="git" />,
-                  href: 'http://git.chinayasha.com',
+                  href: '#',
                   blankTarget: true,
                 },
                 {
                   key: 'ys-ui',
                   title: 'ys-ui',
-                  href: 'http://git.chinayasha.com',
+                  href: '#',
                   blankTarget: true,
                 },
               ]}
               copyright={
                 <Fragment>
-                  Copyright <Icon type="copyright" /> 2018 亚厦股份技术开发部出品
+                  Copyright <Icon type="copyright" /> 2018 XXXX技术开发部出品
                 </Fragment>
               }
             />

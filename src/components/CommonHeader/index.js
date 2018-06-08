@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react';
 import Debounce from 'lodash-decorators/debounce';
 import { Link } from 'dva/router';
 import styles from './index.less';
-import logo from '../../assets/yasha1.png';
+import logo from '../../assets/logo.png';
 
 export default class CommonHeader extends PureComponent {
   componentWillUnmount() {
@@ -33,7 +33,7 @@ export default class CommonHeader extends PureComponent {
     return (
       <div className={styles.header}>
         <div className={styles.main}>
-          <img src={logo} alt="亚厦股份" title="亚厦股份" />
+          <img src={logo} alt="XXXX" title="XXXX" />
         </div>
       </div>
     );
