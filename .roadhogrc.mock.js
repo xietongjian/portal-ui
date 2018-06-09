@@ -33,6 +33,7 @@ const proxy = {
       avatar: 'https://gw.alipayobjects.com/zos/rmsportal/BiazfanxmamNRoxxVxka.png',
       userid: '00000001',
       notifyCount: 12,
+      data:{}
     },
   },
   // GET POST 可省略
@@ -119,7 +120,7 @@ const proxy = {
 
   'GET /portal/api/process/ajaxPageData.jhtml':getAllAlreadySend,
   'GET /portal/api/process/getAllSystems.jhtml':getAllSystems,
-  'GET /portal/api/process/ajaxListApprovingTask.jhtml':getAllSystems,
+  'GET /portal/api/process/ajaxListApprovingTask.jhtml':ajaxListApprovingTask,
   // 'GET /flow/ajaxListApprovingTask.jhtml':'http://test.domain.com/portal',
   'POST /portal/(.*)':'http://test.domain.com/portal/',
   'GET /api/products/getAll':getAllProducts,

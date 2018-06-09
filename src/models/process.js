@@ -47,6 +47,7 @@ export default {
     },
     *fetchAllSystems(_, { call, put }) {
       const response = yield call(getAllSystems);
+      debugger
       yield put({
         type: 'querySystems',
         payload: Array.isArray(response.datas) ? response.datas : [],
@@ -76,6 +77,7 @@ export default {
       };
     },
     querySystems(state, action) {
+      debugger
       return {
         ...state,
         systems: action.payload,
