@@ -1,6 +1,8 @@
 文件上传
 https://segmentfault.com/q/1010000012511685
 
+### DVA 学习资料
+https://www.jianshu.com/p/1329a324101d
 
 ### 文件上传功能案例
 https://codepen.io/monsterboom/pen/BVvLmZ?editors=0010
