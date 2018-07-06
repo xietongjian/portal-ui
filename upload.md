@@ -6,6 +6,8 @@ https://www.jianshu.com/p/1329a324101d
 
 ### 文件上传功能案例
 https://codepen.io/monsterboom/pen/BVvLmZ?editors=0010
+https://blog.csdn.net/wyk304443164/article/details/71217674
+
 ```js
 const { Upload, Icon, Modal } = antd;
 
