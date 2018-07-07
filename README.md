@@ -11,3 +11,8 @@ http://www.mamicode.com/info-detail-2277803.html
     {this.state.panes.map(pane => <TabPane tab={pane.title} key={pane.key}><iframe onLoad={this.onload} src={pane.url}></iframe></TabPane>)}
 </Tabs>
 ```
+
+
+
+### 后台管理系统参考
+http://dva.sosout.com/form/basic-form
